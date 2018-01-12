@@ -1671,3 +1671,392 @@ section .licenseImg img{
     margin-top: -150px;
     margin-bottom: 100px;
 }
+/* Pricing page styling */
+.pricingHeroImg{
+    height: 480px;
+    background-color: #f8fbf7;
+}
+.pricingHeroImg .pricingHeroContent{
+    padding: 40px 0;
+}
+.pricingHeroContent h1{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525650;
+}
+.pricingHeroContent h4{
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a3a9a0;
+}
+section.pricingDescription .descriptionHere{
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
+section.pricingDescription .descriptionImg img{
+    width: 100%;
+}
+section.pricingDescription .descriptionContent{
+    height: 626px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #e4e9e2;
+    padding: 30px;
+}
+section.pricingDescription .descriptionContent .singlePriDescription{
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+section.pricingDescription .descriptionContent .priIcon{
+    width: 20px;
+    margin-right: 15px;
+    float: left;
+}
+section.pricingDescription .descriptionContent .priDesc{
+    float: left;
+    width: 90%;
+}
+section.pricingDescription .descriptionContent .priDesc h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+    margin-top: 0;
+}
+section.pricingDescription .descriptionContent .priDesc p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+}
+section.pricingDescription .descriptionContent .bottomImgs .singleImg img{
+    width: 100%;
+}
+section.pricingDescription .descriptionContent .bottomImgs .singleImg{
+    padding: 0 7px;
+}
+section.pricingDescription .descriptionBox{
+    margin-top: 50px;
+    margin-left: 80px;
+    z-index: 9999;
+}
+section.pricingDescription .descriptionImg{
+    margin-left: -80px;
+}
+
+/* completed project styling */
+section.completeProjects{
+    padding-bottom: 30px;
+}
+section.completeProjects .heading{
+    margin-bottom: 40px;
+}
+section.completeProjects .projectsHere{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e9e2;
+    margin-bottom: 20px;
+}
+section.completeProjects .heading h1{   
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525650;
+}
+section.completeProjects .projectRow{
+    margin-bottom: 35px;
+}
+section.completeProjects .projectRow .head{
+    margin-bottom: 10px;
+}
+section.completeProjects .projectRow .head p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+    margin-bottom: 0;
+}
+section.completeProjects .projectRow .head span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #787e75;
+}   
+section.completeProjects .projectRow .singleProjectImg{
+    height: 300px;
+    background-color: #e4e9e2;
+    position: relative;
+}
+section.completeProjects .projectRow .singleProjectImg .banner{ 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 48px;
+    height: 18px;
+    border-radius: 2px;
+    background-color: #01d35a;
+    padding: 4px;
+}
+section.completeProjects .projectRow .singleProjectImg .banner p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+section.completeProjects .showButton{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+section.completeProjects .showButton .btn{
+    border-radius: 5px;
+    border: solid 2px #bfc4bd;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4e4e4e;
+    width: 220px;
+    height: 60px;
+}
+/* single advice page styling */
+section.singleAdvice .singleAdviceContent{
+    width: 60%;
+    margin: auto;
+}
+section.singleAdvice .heading{
+    margin-bottom: 20px;
+}
+section.singleAdvice .singleAdviceContent .heading p{
+    opacity: 0.3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+}
+section.singleAdvice .heading span.highlight{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01d35a;
+    opacity: 1;
+}
+section.singleAdvice .heading h1{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333631;
+}
+section.singleAdvice .heading span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #787e75;
+}
+section.singleAdvice .singleAdviceContent .singleAdviceImg{
+    width: 100%;
+    height: 370px;
+    background-color: #e4e9e2;
+    margin-bottom: 20px;
+}
+section.singleAdvice .singleAdviceContent h3{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333631;
+}
+section.singleAdvice .singleAdviceContent p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+}
+section.singleAdvice .singleAdviceContent .singleAdviceDes{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e4e9e2;
+}
+section.singleAdvice .singleAdviceContent .singleAdviceDes .highlight{
+    color: #01d35a;
+}
+section.singleAdvice .singleAdviceContent .singleAdviceDes .italic{
+    font-style: italic;
+}
+section.singleAdvice .singleAdviceContent .bottomBtns{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+section.singleAdvice .singleAdviceContent .bottomBtns .cube{
+    width: 95px;
+    height: 24px;
+    border-radius: 4px;
+    border: solid 2px #bfc4bd;
+}
+section.singleAdvice .singleAdviceContent .bottomBtns .garden{
+    width: 95px;
+    height: 24px;
+    border-radius: 4px;
+    border: solid 2px #bfc4bd;
+}
+section.singleAdvice .singleAdviceContent .bottomBtns .btn{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #787e75;
+    padding: 0;
+}
+section.singleAdvice .singleAdviceContent .bottomBtns .rightBtns .btn{
+    width: 95px;
+    height: 24px;
+    border-radius: 4px;
+    border: solid 2px #bfc4bd;
+}
+section.compareHero .reviewImg .reviewContent .reviewContentHere{
+    width: 60%;
+}
+
+/* compare page styling */
+section.compareContent{
+    padding: 30px 0; 
+}
+.compareContent .compareContentHere{
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e4e9e2;
+}
+.compareContent .compareContentHere img{
+    width: 100%;
+}
+.compareContent .compareContentHere .lightGrey{
+    background-color: #f8fbf7;
+}
+.compareContent .compareContentHere .singleRow{
+    margin-bottom: 10px;
+}
+.compareContent .compareContentHere .singleRow .head p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: right;
+    color: #787e75;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+.compareContent .compareContentHere .singleRow p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+    margin-bottom: 0;
+    padding: 7px;
+}
+.compareContent .compareContentHere .singleRow .fa{
+    color: #01d35a;
+    font-size: 18px;
+    padding: 10px 2px;
+}
+.compareContent .compareContentHere .singleRow.tableHead h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a49;
+}
