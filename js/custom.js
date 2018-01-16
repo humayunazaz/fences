@@ -6,6 +6,17 @@ $(document).ready(function(){
     } else{
         desktopUpdate();
     }
+    $(window).scroll(function(){
+        console.log('chala');
+        let height = $(window).scrollTop();
+        console.log(height);
+        if(height > 350){
+            $("header").css("position", "fixed");
+            $("header").css("z-index", "99999999");
+        } else{
+            $("header").css("position", "relative");
+        }
+    });
 });
 
 function responsiveUpdate(){

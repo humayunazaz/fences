@@ -1062,6 +1062,9 @@ section.availableCities .heading p{
     text-align: left;
     color: #a3a9a0;
 }
+section.availableCities .citiesImg.responsive{
+    display: none;
+}
 section.availableCities .citiesImg img{
     width: 100%;
 }
@@ -1732,6 +1735,9 @@ section.pricingDescription .descriptionHere{
     margin-top: -200px;
     margin-bottom: 100px;
 }
+section.pricingDescription .descriptionImg.resposive{
+    display: none;
+}
 section.pricingDescription .descriptionImg img{
     width: 100%;
 }
@@ -2335,4 +2341,156 @@ section.compareContent{
     .askQuestionContent .askForm{
         margin: 0;
     }
+    .reviewsHero.compareHero .reviewImg .reviewContent{
+        top: 15%;
+    }
+    section.compareHero .reviewImg .reviewContent .reviewContentHere{
+        width: 90%;
+    }
+    section.pricingDescription .descriptionImg.desktop{
+        display: none;
+    }
+    section.pricingDescription .descriptionImg.resposive{
+        display: block;
+    }
+    .pricingHeroContent h4{
+        font-size: 18px;
+    }
+    .pricingHeroContent h1{
+        font-size: 40px;
+    }
+    .pricingHeroImg{
+        height: 240px;
+    }
+    section.pricingDescription .descriptionHere{
+        margin: 0;
+    }
+    section.pricingDescription .descriptionImg{
+        margin: 0;
+        padding: 0;
+    }
+    section.pricingDescription .descriptionBox{
+        margin: 0;
+        margin-top: -40px;
+    }
+    section.pricingDescription .descriptionContent{
+        height: auto;
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    section.pricingDescription .descriptionContent .priDesc{
+        width: 85%;
+    }
+    section.pricingDescription .descriptionContent .bottomImgs {
+        float: left;
+        width: 100%;
+    }
+    section.pricingDescription .descriptionContent .bottomImgs .singleImg{
+        float: left;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    section.availableCities .citiesImg.desktop{
+        display:none;
+    }
+    section.availableCities .citiesImg.responsive{
+        display:block;
+        padding: 0;
+        margin: 0;
+    }
+    section.availableCities .heading h1{
+        font-size: 40px;
+    }
+    section.availableCities .heading p{
+        font-size: 18px;
+    }
+    section.availableCities .container{
+        padding: 0;
+    }
+    section.availableCities .heading{
+        padding: 0 30px;
+    }
+    section.availableCities .citiesContent{
+        margin-left: 0;
+        width: 90%;
+        margin: auto;
+        margin-top: -40px;
+        height: auto;
+    }
+    .helpHero .helpImg .helpText{
+        top: 20%;
+    }
+    .helpHero .helpImg .helpText .helpContentHere{
+        width: 80%;
+    }
+    .helpHero .helpImg .helpText .helpContentHere h1{
+        font-size: 40px;
+    }
+    section.general .generalContent{
+        width: 85%;
+    }
+    section.general .generalContent .singleContent .singleIcon{
+        width: 10%;
+    }
+    section.general .generalContent .singleContent .singleDescription{
+        width: 90%;
+    }
+    section.general{
+        padding: 20px 0;
+    }
+    .licenseHeroContentHere{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .licenseHeroContentHere h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .licenseHeroContentHere p{
+        font-size: 18px;
+    }
+    .licenseContentHere{
+        margin: 30px 0;
+    }
+    .licenseContentHere .img img{
+        width: 100%;
+    }
+    .storyHero{
+        height: 240px;
+    }
+    .storyHero .storyContent{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .storyHero .storyContent h1{
+        font-size: 40px;
+    }
+    .storyHero .storyContent h4{
+        font-size: 18px;
+    }
+    section.companyStory .storyDescription{
+        width: 100%;
+    }
+    .warrantyHero .warrantyImg .warrantyContent{
+        top: 0;
+    }
+    .warrantyHero .warrantyImg .warrantyContentHere{
+        width: 100%;
+        margin: 0;
+    }
+    .warrantyHero .warrantyImg .warrantyContentHere h1{
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .warrantyHero .warrantyImg .warrantyContentHere h4{
+        font-size: 18px;
+        margin-top: 0;
+    }
+    section.warrantyDescription .descriptionHere{
+        width: 90%;
+    }
 }
+
+
