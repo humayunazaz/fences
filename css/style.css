@@ -34,6 +34,30 @@ header .content ul li a{
     color: #333631;
     font-size: 14px;
     text-decoration: none;
+    padding: 0;
+}
+header .navbar-header{
+    padding: 0 15px;
+}
+header .collapse.col-sm-12{
+    width: 100%;
+    padding: 0;
+}
+header .navbar-header button{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #525650;
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: 'Hind Vadodara', sans-serif;
 }
 .Wood-fences {
     height: 20px;
@@ -230,6 +254,9 @@ header .content ul li a{
     margin-left: 50px;
     z-index: 9999;
     margin-top: 35px;
+}
+.whyPeople .whyImage.responsive{
+    display: none;
 }
 .whyPeople .whyImage{
     margin-left: -50px;
@@ -2059,4 +2086,253 @@ section.compareContent{
     letter-spacing: normal;
     text-align: left;
     color: #4a4a49;
+}
+
+@media (min-width:320px) and (max-width:567px) {
+    header .logo-here, header .navbar-header{
+        float: left;
+        width: 50%;
+    }
+    header .container{
+        padding: 0;
+    }    
+    header .container .navbar-header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    header .container .content{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        background: rgb(255, 255, 255);
+        z-index: 9999;
+    }
+    header .content ul{
+        margin: 15px 0;
+    }
+    header .content ul li{
+        margin-bottom: 10px;
+    }
+    header .content ul li, header .content ul li a{
+        width: 100%;
+        text-align: center;
+    }
+    .heroContent{
+        width: 100%;
+    }
+    .heroContent .contentHere{
+        width: 100%;
+    }
+    .heroContent .contentHere h1{
+        font-size: 40px;
+        text-align: left;
+    }
+    .heroContent .contentHere{
+        text-align: left;
+    }
+    .heroContent .contentHere h3{
+        font-size: 18px;
+        text-align: left;
+    }
+    .heroContent .contentHere .form-group{
+        width: 100%;
+    }
+    .heroContent .contentHere input{
+        padding: 15px;
+        height: 48px;
+    }
+    .heroContent .contentHere .form-group .btn{
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        height: 48px;
+        right: 0;
+        top: 0;
+    }
+    .heroContent .contentHere .phone{
+        text-align: left;
+    }
+    .whyPeople .whyImage.desktop{
+        display: none;
+    }
+    .whyPeople .whyImage.responsive{
+        display: block;
+        margin-left: 0;
+        padding: 0;
+    }
+    .whyPeople .peopleContent{
+        margin: 0;
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+        margin-top: -25px;
+        height: 420px;
+    }
+    .whyPeople .container{
+        padding: 0;
+    }
+    .trustedWood{
+        padding: 20px 0;
+    }
+    .trustedWood .mainHeading h3{
+        font-size: 22px;
+    }
+    .trustedWood .mainHeading p{
+        font-size: 14px;
+    }
+    .trustedWood .singleBox{
+        margin-bottom: 15px;
+    }
+    .fenceInstallation .container{
+        padding: 0;
+    }
+    .fenceImg{
+        padding: 0;
+    }
+    .fenceContent{
+        padding: 15px;
+    }
+    .fenceInstallation .fenceContent .singleContent .singleDes p{
+        float: left;
+        width: 85%;
+    }
+    .fenceInstallation .fenceContent .singleContent .head h4{
+        float:left;
+        width: 85%;
+        margin-top: 0;
+    }
+    .fenceInstallation .fenceContent .singleContent{
+        float: left;
+        width: 100%;
+    }
+    .fenceInstallation .fenceContent h3{
+        font-size: 22px;
+    }
+    section.banner .singleBanner{
+        margin-bottom: 15px;
+    }
+    section.fenceService .mainImg .fenceContent .fenceContentHere{
+        width: 100%;
+        padding: 30px 0;
+    }
+    section.fenceService .mainImg .fenceContent .fenceContentHere h3{
+        font-size: 30px;
+    }
+    section.fenceService .mainImg .fenceContent .fenceContentHere p{
+        font-size: 16px;
+    }
+    section.fenceService .mainImg .fenceContent .fenceContentHere .form-group{
+        width: 100%;
+    }
+    section.fenceService .mainImg .fenceContent .fenceContentHere .form-group input{
+        padding: 15px;
+        height: 48px;
+    }
+    section.fenceService .mainImg .fenceContent .fenceContentHere .form-group .btn{
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        height: 48px;
+        right: 0;
+        top: 0;
+    }
+    .reviewsHero .reviewImg .reviewContent{
+        top: 30%;
+    }
+    .reviewsHero .reviewImg .reviewContent .reviewContentHere{
+        width: 100%;
+    }
+    .reviewsHero .reviewImg .reviewContent h1{
+        font-size: 40px;
+    }
+    .reviewsHero .reviewImg .reviewContent h4{
+        font-size: 18px;
+    }
+    .customPagination .description{
+        width: 55%;
+    }
+    .customPagination{
+        width: 100%;
+    }
+    section.singleAdvice .singleAdviceContent{
+        width: 100%;
+    }
+    section.singleAdvice .container{
+        padding: 0;
+    }
+    section.singleAdvice .heading h1, section.singleAdvice .singleAdviceContent h3{
+        font-size: 22px;
+    }
+    .bottomBtns .leftBtns{
+        margin-bottom: 10px;
+    }
+    section.singleAdvice .singleAdviceContent .singleAdviceDes .highlight{
+        font-size: 11px;
+    }
+    section.completeProjects .heading h1{
+        font-size:40px;
+    }
+    section.completeProjects .projectRow .singleProjectImg{
+        margin-bottom: 15px;
+    }
+    section.pro-hero .pro-hero-img .pro-content{
+        padding: 15px;
+        top: 15%;
+    }
+    section.pro-hero .pro-hero-img .pro-content .pro-contentHere{
+        width:100%;
+    }
+    section.pro-hero .pro-hero-img .pro-content h1{
+        font-size: 40px;
+    }
+    section.pro-hero .pro-hero-img .pro-content p{
+        font-size: 18px;
+    }
+    .subscribe .subscribeContent{
+        width: 100%;
+        float: left;
+    }
+    .subscribe .subscribeContent .form-group{
+        width: 100%;
+    }
+    .subscribe .subscribeContent .form-group input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .subscribe{
+        height: auto;
+    }
+    .subscribe .subscribeContent .btn{
+        width: 100%;
+    }
+    section.blog .blogHere{
+        width: 100%;
+    }
+    .fenceInstall .heading h1{
+        font-size: 40px;
+    }
+    .fenceInstall .heading p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .fenceInstall .singleContractor{
+        margin-bottom: 20px;
+    }
+    section.interested .interestedHere .interestedContent{
+        width: 100%;
+    }
+    section.askQuestion .askQuestionContent, .askQuestionContent .askForm{
+        padding: 0;
+    }
+    .askQuestionContent .askFormHere{
+        padding: 15px;
+    }
+    section.askQuestion{
+        margin-bottom: 250px;
+    }
+    .askQuestionContent .askForm{
+        margin: 0;
+    }
 }
