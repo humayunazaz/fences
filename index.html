@@ -29,13 +29,72 @@
                 <span><i class="fa fa-angle-down"></i></span>
             </button>
         </div>
-        <div class="col-sm-6 content collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="col-sm-6 content desktop">
             <ul class="nav navbar-nav">
                 <li class="Wood-fences navigation-here active"><a href="#">Wood fences</a></li>
                 <li class="Inspiration navigation-here"><a href="#">Inspiration</a></li>
                 <li class="Reviews navigation-here"><a href="#">Reviews</a></li>
                 <li class="Help navigation-here"><a href="#">Help</a></li>
                 <li class="More navigation-here"><a href="#">More</a></li>
+                <li class="quote navigation-here"><button class="btn btn-default">Get a quote</button></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 content collapse navbar-collapse responsive" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="Wood-fences navigation-here active">
+                    <a href="#">Wood fences</a>
+                    <div class="icon">
+                        <i class="fa fa-plus" type="button" data-toggle="collapse" data-target="#wood"></i>
+                    </div>
+                    <div class="collapse sub-menu" id="wood">
+                        <ul>
+                            <li href="#">Fence option</li>
+                            <li href="#">Pricing</li>
+                            <li href="#">Licenses</li>
+                            <li href="#">Warranty</li>
+                            <li href="#">Financing</li>
+                            <li href="#">Why us?</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Inspiration navigation-here">
+                    <a href="#">Inspiration</a>
+                    <div class="icon">
+                        <i class="fa fa-plus" type="button" data-toggle="collapse" data-target="#insp"></i>
+                    </div>
+                    <div class="collapse sub-menu" id="insp">
+                        <ul>
+                            <li href="#">Fence option</li>
+                            <li href="#">Pricing</li>
+                            <li href="#">Licenses</li>
+                            <li href="#">Warranty</li>
+                            <li href="#">Financing</li>
+                            <li href="#">Why us?</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="Reviews navigation-here">
+                    <a href="#">Reviews</a>
+                </li>
+                <li class="Help navigation-here">
+                    <a href="#">Help</a>
+                </li>
+                <li class="More navigation-here">
+                    <a href="#">More</a>
+                    <div class="icon">
+                        <i class="fa fa-plus" type="button" data-toggle="collapse" data-target="#more"></i>
+                    </div>
+                    <div class="collapse sub-menu" id="more">
+                        <ul>
+                            <li href="#">Fence option</li>
+                            <li href="#">Pricing</li>
+                            <li href="#">Licenses</li>
+                            <li href="#">Warranty</li>
+                            <li href="#">Financing</li>
+                            <li href="#">Why us?</li>
+                        </ul>
+                    </div>
+                </li>
                 <li class="quote navigation-here"><button class="btn btn-default">Get a quote</button></li>
             </ul>
         </div>
@@ -55,7 +114,12 @@
                         <button class="btn btn-default quote">Get a quote</button>
                     </div>
                     <div class="phone">
-                        <p>650-265-6662</p>
+                        <p>
+                            <img src="img/white.png"
+                            srcset="img/white@2x.png 2x,
+                                    img/white@3x.png 3x"
+                            class="white">
+                        650-265-6662</p>
                     </div>
                 </div>
             </div>

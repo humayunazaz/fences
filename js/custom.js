@@ -1,15 +1,12 @@
 $(document).ready(function(){
     let width = $(window).innerWidth();
-    console.log(width);
     if(width < 567){
         responsiveUpdate();
     } else{
         desktopUpdate();
     }
     $(window).scroll(function(){
-        console.log('chala');
         let height = $(window).scrollTop();
-        console.log(height);
         if(height > 350){
             $("header").css("position", "fixed");
             $("header").css("z-index", "99999999");
@@ -20,8 +17,8 @@ $(document).ready(function(){
 });
 
 function responsiveUpdate(){
-    $('.heroMain img').attr("src", "img/hero-mobile.png");
-    $('.heroMain img').attr("srcset", "");
+    $('.heroMain .heroImg').attr("src", "img/hero-mobile.png");
+    $('.heroMain .heroImg').attr("srcset", "");
     $(".fenceService .mainImg img").attr("src", "img/img-mobile.png");
     $(".fenceService .mainImg img").attr("srcset", "");
     $(".reviewImg img").attr("src", "img/bg2-mobile.png");
@@ -32,8 +29,8 @@ function responsiveUpdate(){
 }
 
 function desktopUpdate(){
-    $('.heroMain img').attr("src", "img/hero.png");
-    $(".fenceService .mainImg img").attr("src", "img/img.png");
+    $('.heroMain .heroImg').attr("src", "img/hero.png");
+    $(".fenceService .mainImg img").attr("src", "img/img2.png");
     $(".reviewImg img").attr("src", "img/bg2.png");
     $(".pro-hero-img img").attr("src", "img/hero2.png");
     $(".askImg").css("display", "block");

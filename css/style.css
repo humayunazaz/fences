@@ -20,6 +20,9 @@ header{
     height: 18px;
     object-fit: contain;
 }
+header .content.responsive{
+    display: none!important;
+}
 header .content ul{
     float: left;
     width: 100%;
@@ -230,6 +233,11 @@ header .navbar-header button{
 .heroContent .contentHere .phone{
     text-align: center;
     margin-top: 30px;
+}
+.heroContent .contentHere .phone p img{
+    width: 24px;
+    margin-top: -5px;
+    margin-right: 5px;
 }
 .heroContent .contentHere .phone p{
     font-size: 22px;
@@ -2042,6 +2050,9 @@ section.compareContent{
     background-color: #ffffff;
     border: solid 1px #e4e9e2;
 }
+.compareContent .compareContentHere .responsiveCompareContent{
+    display: none;
+}
 .compareContent .compareContentHere img{
     width: 100%;
 }
@@ -2112,6 +2123,12 @@ section.compareContent{
         margin-right: 0;
         background: rgb(255, 255, 255);
         z-index: 9999;
+    }
+    header .content.desktop{
+        display: none;
+    }
+    header .content.responsive.in{
+        display: block;
     }
     header .content ul{
         margin: 15px 0;
@@ -2490,6 +2507,66 @@ section.compareContent{
     }
     section.warrantyDescription .descriptionHere{
         width: 90%;
+    }
+    .compareContent .compareContentHere .responsiveCompareContent{
+        display: block;
+    }
+    .compareContent .compareContentHere .desktopCompareContent{
+        display: none;
+    }
+    .compareContent .compareContentHere{
+        float: left;
+        width: 100%;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .compareContent .compareContentHere .responsiveCompareContent .singleOption{
+        padding: 15px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        border: solid 1px #e4e9e2;
+        margin-bottom: 20px;
+    }
+    .compareContent .compareContentHere .singleRow .head p{
+        text-align: left;
+        padding: 7px 0;
+    }
+    .compareContent .compareContentHere .singleRow p{
+        padding: 7px 0;
+    }
+    .compareContent .compareContentHere .singleRow .col-xs-6{
+        padding: 7px 0;
+    }
+    header .content.responsive ul li a{
+        float: left;
+        width: auto;
+        color: #4a4a49;
+        font-weight: bold;
+    }
+    header .content.responsive ul li .icon{
+        float: right;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border: 1px solid #bfc4bd;
+        color: #bfc4bd;
+    }
+    header .content.responsive .quote .btn{
+        width: 100%;
+        margin-top: 25px;
+        background-color: #01d35a;
+        color: #fff;
+    }
+    header .content.responsive ul li{
+        height:auto;
+    }
+    header .content.responsive ul li .sub-menu{
+        float: left;
+        width: 100%;
+    }
+    header .content.responsive ul li .sub-menu li{
+        text-align: left;
     }
 }
 
